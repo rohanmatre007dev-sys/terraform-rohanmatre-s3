@@ -11,7 +11,7 @@ variable "create_bucket" {
 variable "region" {
   description = "AWS region where S3 bucket will be created"
   type        = string
-  default     = "ap-south-1"
+  # default     = "ap-south-1"
 }
 
 variable "environment" {
